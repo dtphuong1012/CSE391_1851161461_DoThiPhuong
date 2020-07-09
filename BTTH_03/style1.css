@@ -1,0 +1,358 @@
+/* 
+ * Colors
+ * 
+ * Dark gray		#34383c
+ * medium gray		#81858a
+ * purple			#620e6e
+ * blue				#4385c1
+ * light blue		#9ac9f4
+ * darker blue		#043867
+ * darkest blue	#002342
+ * blue tint		#e7ecf0
+ * green				#7aa120
+ */
+
+ body {
+	margin: 0px;
+	background: white;
+	color: #2b394b;
+	font: 1em/1.6 Helvetica, Verdana, sans-serif;
+	position: absolute;
+}
+/*header-----------------------------------------------------------------*/
+header {
+	background: #4385c1;
+	color: white;
+	font-size: .9rem;
+}
+.header_box{
+	height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+/* navigation */
+/* quick-nav--------------------------------------------*/
+#quick-nav {
+	margin-right: 10px;
+	width: 35%;
+	height: 100%;
+}
+#quick-nav ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 100%;
+	margin-left: 20px;
+}
+#quick-nav li {
+	border-right: 1px solid #9ac9f4;
+	margin: 0px 5px;
+
+}
+#quick-nav li:last-of-type {
+	border: none;
+	text-align: center;
+}
+
+#quick-nav a{
+	margin: 0 5px;
+	font-size: 17px;
+}
+#quick-nav a:link, #quick-nav a:visited {
+	color: white;	
+	text-decoration: none;
+}
+#quick-nav a:hover, #quick-nav a:focus, #quick-nav a:active {
+	color: #9ac9f4;
+	text-decoration: none;
+}
+
+/*branding------------------------------------------*/
+img.a1{
+	width: 100%;
+	padding-top: 20px;
+}
+.branding {
+	color: #9ac9f4;
+    text-transform: uppercase;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/*utilities-nav------------------------------------*/
+#utilities-nav{
+	width: 35%;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 22px;
+}
+#utilities-nav a:hover{
+	color: tomato;
+}
+a.button{
+	text-decoration: none;
+	margin-right: 10px;
+	font-size: 17px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+/*main-nav------------------------------------------------------------------------*/
+#main-nav {
+	background-color: #043867;
+	font-family: Georgia, serif;
+	font-size: 1.2em;
+	height: 70px;
+}
+#main-nav ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px ;
+	width: 100%;
+	text-align: center;
+	margin: 0px 20px;
+	border-left: 1px solid #4385c1;
+}
+#main-nav ul li{
+	list-style: none;
+	border-right:1px solid #4385c1;
+	float: left;
+	text-align: center;
+}
+#main-nav ul li.li1{
+	border-left: 1px solid #4385c1;	
+}
+#main-nav ul li a{
+	height: 70px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 70px;
+	padding: 0px 75px;
+	color: white;
+	font-size:20px;
+}
+#main-nav ul li a:hover{
+	color:red;
+}
+a.active{
+	background-color: #42001c;
+}
+li.a-active{
+	background-color: #42001c;
+}
+
+/*main----------------------------------------------------------------------------------------------------------------------*/
+ /*box1*/
+.box1{
+	margin: 90px 0px 0px 0px ;
+	background: url("../images/hero.jpg") no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 400px;
+	
+}
+main div.chu{
+	height: 200px;
+	width: 70%;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+}
+
+
+/*box2-----------------------------------------------------*/
+.box2{
+	display: flex;
+	background-color:#4B8A08 ;
+	width: 100%;
+	height: 120px;
+	margin-top: 50px;
+}
+div.box21 a{
+	color: white;
+	text-decoration: none;
+	font-size: 50px;
+	width: 35%;
+	height: 120px;
+	line-height: 120px;
+	margin-left: 25px;
+}
+div.box2 a:hover{
+	color:red;
+}
+div.box22 {
+	width: 65%;
+	color: white;
+	display: flex;	
+	align-items: center;
+	font-size: 20px;
+	height: 120px;
+	margin-left: 70px;
+}
+
+
+/*box3----------------------------------------*/
+.box3{
+	font-family: Georgia, serif;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 23px 50px 0px 50px;
+}
+.box31{
+	width: 370px;
+	height: 370px;
+	background-color: #e7ecf0;
+	padding: 0px 25px 25px;
+	margin: 25px;
+	
+}
+div.box31 a, div.box31 h2{
+	text-decoration: none;
+	font-size: 40px;
+	width: 370px;
+	margin-top: 100px;
+}
+div.box31 div{
+	width: 370px;
+	color:#363636;
+}
+.box31 a.muc{
+	color: #4385c1;
+}
+.box31 a.muc:hover{
+	color: red;
+}
+div.box3 section{
+	width: 370px;
+	height: 370px;
+	background-color: white;
+	margin: 25px;
+	padding: 0px 25px 25px;
+}
+.chutrang1{
+	background-color: #620e6e;
+	color: white;
+}
+.chutrang2{
+	background-color: #4385c1;
+	color:white;
+}
+a.muc2 p, a.muc2 h2{
+	color: white;
+}
+a.muc2 p:hover, a.muc2 h2:hover {
+	color: tomato;
+}
+
+/*section------------------------------------------------*/
+section p{
+	height: 50px;
+	margin-top: -50px;
+}
+section p div{
+	margin-top: -20px;
+}
+.ngay{
+	height: 60px;
+	width: 60px;
+	float: left;
+	border: 1px solid gray;
+	text-align: center;
+	color:#4B8A08 ;
+	margin:0px 10px;
+}
+.chuthich{
+	height:60px;
+	margin-left: 10px;
+	line-height: 60px;
+	color:#4385c1 ;
+}
+
+/*box4--------------------------------------------------*/
+
+.box4 ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;	
+}
+.box4 ul li{
+	width: 310px;
+	height: 70px;
+	margin:  15px;
+	border: 1px solid #4385c1;
+	border-radius: 7px;
+	float: left;
+	text-align: center;
+
+}
+.box4 ul li a  {
+	color: #4385c1;
+	text-decoration: none;
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+	font-size: 20px;
+} 
+.box4 ul li a:hover{
+	color: tomato;
+}
+
+
+
+/*footer------------------------------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+	background-color: #34383c;
+	margin: 90px 20px 20px 20px;
+	font-family: Georgia, serif;
+	color: white;
+}
+
+#full-nav{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px 25px;
+	border-bottom: 1px solid white;
+}
+#full-nav div{
+	width: 295px;
+	margin: 30px;
+
+}
+#full-nav a{
+	text-decoration: none;
+}
+#full-nav a:link, #full-nav a:visited {
+	color: #81858a;	
+}
+#full-nav h3 a:link, #full-nav h3 a:visited {
+	color: white;
+
+}
+#full-nav a:hover, #full-nav a:focus, #full-nav a:active {
+	color: white;
+}
+
+small{
+	font-family: Georgia, serif;
+	display: block;
+	color: white;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	margin-top: 60px;
+	font-size: 17px;
+}
+
+
