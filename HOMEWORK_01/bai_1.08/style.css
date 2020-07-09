@@ -1,0 +1,32 @@
+.right{
+    width: 400px;
+     padding-left: 2px;
+     float: left;
+}
+.left{
+    width: 600px;
+    float: left;
+}
+h1{
+    text-align: center;
+    color: brown;
+
+}
+.bang{
+    width: 100%;
+    border-collapse: collapse;
+}
+.bang td, .bang.th{
+    border: 1px solid black;
+    padding: 8px;
+}
+.bang tr:nth-child(even){background-color: #FFF;}
+.bang tr:hover {background-color:#FFEDCA;}
+
+.bang th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: brown;
+  color: white;
+}

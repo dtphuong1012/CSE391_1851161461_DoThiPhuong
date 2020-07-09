@@ -1,0 +1,18 @@
+body{
+    font-size: 20px;
+}
+#bai5 h1 {
+    text-align: center;
+    color: darkgreen;
+}
+#bai5 strong {
+    text-decoration: underline;
+}
+#bai5 span {
+    color: red;
+}
+pre {
+    background-color: #ccc;
+    color: blue;
+    margin-top: 15px;
+}

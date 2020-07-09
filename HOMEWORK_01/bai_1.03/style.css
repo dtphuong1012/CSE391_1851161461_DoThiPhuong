@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color:#FFCC00 ;
+}
+body{
+    color: #fff;
+    background:#A06D21;
+    background-image: url('/images/vltt.jpg');
+    background-repeat: no-repeat;
+    font-size: 20px;
+    background-position: center;
+   
+}

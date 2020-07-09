@@ -1,0 +1,26 @@
+
+body {
+    
+    background-image: url("//timoday.edu.vn/wp-content/uploads/2017/06/hinh-nen-powerpoint-don-gian-dep-30-461x346.jpg");
+    
+  }
+#bai4 h2{
+    color:#008888 ;
+    text-align: center;
+    font-size: 50px;
+}
+#bai4 .doanvan{
+    font-size: 25px;
+}
+#bai4 .doan1{
+    background:#339999 ;
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+}
+#bai4 .doan2{
+    color: #008888;
+}
+#bai4 .doan3{
+    color: #008888;
+}

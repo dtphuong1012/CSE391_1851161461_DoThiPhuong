@@ -1,0 +1,17 @@
+img{
+    width: 150px;
+    height: 200px; 
+    float: left;
+    padding-right: 2px;
+    
+}
+.ol{
+    list-style-type: lower-alpha;
+}
+li font{
+    background-color: violet;
+    color: white;
+}
+li>ul{
+    list-style-type: square;
+}
