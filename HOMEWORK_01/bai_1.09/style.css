@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: #CC0033;
+}
+table{
+    width: 90%;
+    line-height: 30px;
+    margin: 20px 30px;
+    border-collapse: collapse;
+    border: 1px solid #CC0033;
+
+}
+tr:first-child {
+    background-color: #CC0033;
+    color: #fff;
+}
+table tr:nth-child(){
+    background-color: #CC0033;
+}
+tr:nth-child(){
+    background: #101220;
+}
