@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.fruit{
+    width: 180px;
+    height: 180px;
+}
+.fruit img{
+    width: 180px;
+    height: 180px;
+}
