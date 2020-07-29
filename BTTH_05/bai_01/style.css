@@ -1,0 +1,8 @@
+.bg-mycolor{
+    background-color:blue;
+    color: red;
+}
+.form-group{
+    display: flex;
+}
+
