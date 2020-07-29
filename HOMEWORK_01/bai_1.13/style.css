@@ -1,0 +1,23 @@
+#lout{
+    
+}
+h1{
+    color: royalblue;
+    text-align: center;
+}
+.container{
+    border-collapse: collapse;
+    background-color: rgb(254,251,196);
+    color: royalblue;
+    margin: 0 auto;
+    width:70% ;
+    margin-top: 10px;
+}
+.container, .container td, .container th {
+    border: 1px solid royalblue;
+    padding: 10px;
+}
+.red{
+    color: red;
+    text-align: center;
+}
