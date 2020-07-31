@@ -1,0 +1,31 @@
+.row{
+    justify-content: center;
+}
+.col-md-2{
+    border: 1px solid black; 
+    margin-right: 30px; 
+    justify-content: center;
+    margin-top: 10px;
+    height: max-content;
+}
+h4{
+    position: absolute; 
+    top: 100px; 
+    color:whitesmoke;
+    left:40px;
+}
+.h4-question{
+    position: absolute; 
+    top: 100px; 
+    color:white;
+    left:100px;
+}
+button{
+    background-color: rgb(216, 215, 215);
+    padding-bottom: 10px; 
+    border: white;
+}
+img{
+    margin-bottom: 20px;
+    max-width: 100%;
+}
