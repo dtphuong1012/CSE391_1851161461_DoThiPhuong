@@ -24,6 +24,7 @@ button{
     background-color: rgb(216, 215, 215);
     padding-bottom: 10px; 
     border: white;
+    display: flex;
 }
 img{
     margin-bottom: 20px;
